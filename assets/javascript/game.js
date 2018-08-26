@@ -83,14 +83,14 @@ document.onkeypress = function(event) {
 
 //music
 function play() {
-    if (actualWord=="summer"){
+    if (actualWord=="summer") {
         var audio = "<audio autoplay = 'autoplay'>" + "<source src='assets/images/Don Henley - The Boys Of Summer (1984).mp3'></audio>"
         document.querySelector("#audio").innerHTML = audio;
         var picture = "<img src='assets/images/summer.png'>"
         document.querySelector("#picture").innerHTML = picture;
         gameStart ();
-    } else if (actualWord == "tuesday") {
-        var audio = "<audio autoplay = 'autoplay'>" + "<source src='assets/images/'Til Tuesday What About Love.mp3'></audio>"
+    } else if (actualWord=="tuesday") {
+        var audio = "<audio autoplay = 'autoplay'>" + "<source src='assets/images/WhatAboutLove.mov'></audio>"
         document.querySelector("#audio").innerHTML = audio;
         var picture = "<img src='assets/images/tuesday.png'>"
         document.querySelector("#picture").innerHTML = picture;
@@ -108,9 +108,9 @@ function play() {
         document.querySelector("#picture").innerHTML = picture;
         gameStart ();
     } else if (actualWord == "never") {
-        var audio = "<audio autoplay = 'autoplay'>" + "<source src='assets/images/Rick Astley Never gonna give you up lyrics!!!.mp3'></audio>"
+        var audio = "<audio autoplay = 'autoplay'>" + "<source src='assets/images/NeverGonnaGiveYouUp.mov'></audio>"
         document.querySelector("#audio").innerHTML = audio;
-        var picture = "<img src='/assets/images/never.png'>"
+        var picture = "<img src='assets/images/never.png'>"
         document.querySelector("#picture").innerHTML = picture;
         gameStart ();
     }
